@@ -1,0 +1,39 @@
+#container {
+  width: 600px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#app {
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  margin-top: 75px;
+}
+
+#nyArticles {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 36pt;
+  /*font-family: 'Helvetica', serif;*/
+  font-weight: normal;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  line-height: 55px;
+  font-family: 'Helvetica', serif;
+  font-size: 32pt;
+}
