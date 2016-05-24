@@ -1,3 +1,10 @@
+body {
+  font-family: 'helvetica' ; 
+}
+
+a {
+  text-decoration: none;
+}
 #container {
   width: 600px;
   height: 100%;
@@ -24,6 +31,17 @@
   margin-top: 20px;
 }
 
+#options {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 h1 {
   font-size: 36pt;
   /*font-family: 'Helvetica', serif;*/
@@ -36,4 +54,60 @@ input {
   line-height: 55px;
   font-family: 'Helvetica', serif;
   font-size: 32pt;
+}
+
+ul {
+  color: #19334d;
+  float: right;
+  list-style-type: none;
+  margin-right: 100px;
+  margin-top: 100px;
+  line-height: 30px;
+}
+
+
+
+.hide {
+  display: none;
+}
+
+
+
+
+
+
+#nav-toggle { position: absolute; right: 10%; top: 10%; }
+
+#nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: black;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px; 
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
 }
