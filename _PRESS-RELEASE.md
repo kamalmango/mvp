@@ -18,27 +18,42 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  movely
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  people who are looking to move to new city or are looking for osmething to do in their current city
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  The app give the user three options, pull up news from a certain city if they're curious, pull up near by restaurants if
+  they're hungry or pull up nearby events if they're bored. 
 
 ## Problem ##
   > Describe the problem your product solves.
+  moving or traveling to a new city is usually a hassle, especially if you haven't been there before. You don't know the area,
+  you don't know what to do or what is going in terms of news. 
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  Movely solves the problem by curating some necessary information into one place if you are traveling or moving to a certain city 
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  movely is about helping you with our decision process, instead of searching the whole web for news, food
+  or events and being lost in all of the results, we curate the most important ones for you so you could get the time
+  to enjoy yourself
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  as easy as going to the website and typing a city name
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  movely helped me plan out my trip in terms of restaurants and events im going to. No research required, all i had to do is type in where im going
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  start using the app
+
+

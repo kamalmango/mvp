@@ -1,6 +1,7 @@
 function callYelp() {
   // yelp uses OAuth 1.0a for authentication API requests
   // bettiolo/oauth-signature-js was used to generate the required signature
+  $('#nyArticles').html('');
   var cityStr = $('.city').val();
   console.log(cityStr);
   //function that genearates a random number so that API call works multiple times 
@@ -34,27 +35,10 @@ function callYelp() {
 
     // funciton for parsing the API JSON results
     success: function(results) {
-      /*
-     for (var i = 0; i < results.businesses.length; i++) {
-       place = {}; //place object that will hold the neccessary information from the yelp results
-       var image = results.businesses[i].image_url;
-       place.name = results.businesses[i].name;
-       place.id = i + 1;
-       place.location = {
-         'lat' : results.businesses[i].location.coordinate.latitude,
-         'lng' : results.businesses[i].location.coordinate.longitude
-       };
-       place.image = image.replace('ms', 'l'); // get larger yelp image by replacing ms with l in the returned url
-       place.ratingImage = results.businesses[i].rating_img_url;
-       place.reviewSnippet = results.businesses[i].snippet_text;
-       place.reviewUrl = results.businesses[i].url;
-       place.address = results.businesses[i].location.display_address[0] + ', ' + results.businesses[i].location.display_address[1];
-    },
-    */
       for (var i=0; i < results.businesses.length; i++) {
         var result = results.businesses[i];
         $('#nyArticles').append('<ul class="article">' +
-           '<p>' + result.name + '</p>'+
+           '<p class="title">' + result.name + '</p>'+
            '<p>' + result.snippet_text + '</p>'+
         '</ul>');
       };
@@ -75,13 +59,3 @@ $('.city').keypress(function(e) {
   }
 });
 
-/*
-for (var i=0; i < articles.length; i++) {
-  var article = articles[i];
-  $('#nyArticles').append('<ul class="article">' +
-      '<a href="'+article.web_url+'">'+article.headline.main+
-          '</a>'+
-      '<p>' + article.snippet + '</p>'+
-  '</ul>');
-};
-*/

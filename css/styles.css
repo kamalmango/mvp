@@ -1,9 +1,11 @@
+
 body {
   font-family: 'helvetica' ; 
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 #container {
   width: 600px;
@@ -71,10 +73,31 @@ ul {
   display: none;
 }
 
+.article {
+  margin-top: 10px;
+}
 
+.title {
+  font-weight: bold;
+}
 
+.events {
+  /*font-weight: bold;*/
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
 
+.red {
+  background-color: red;
+  transition: 5s;
+}
 
+#exclamation {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 50px;
+}
 
 #nav-toggle { position: absolute; right: 10%; top: 10%; }
 
